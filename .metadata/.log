@@ -29,3 +29,60 @@ Binding(CTRL+SHIFT+T,
 
 !ENTRY org.eclipse.ui 2 2 2019-11-16 18:30:37.370
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 18:40:05.850
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 18:40:05.897
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@10d56aab[org.springframework.tooling.boot.ls:1.11.0.201909171347(id=625)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 18:40:05.914
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 18:40:07.050
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 18:40:33.347
+!MESSAGE Boot LS startup time from start to initialized: 27155ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 18:40:33.656
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.xGiPkAdkisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 18:40:37.917
+!MESSAGE subscribing to classpath changes: sts4.classpath.xGiPkAdk isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 18:40:38.003
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 18:40:38.009
+!MESSAGE subsribers = {sts4.classpath.xGiPkAdk=Send Classpath Notifications(120)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 18:40:38.009
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 18:40:38.011
+!MESSAGE project demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 18:40:38.012
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 18:40:38.012
+!MESSAGE Preparing classpath changed notification demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 18:40:38.012
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.xGiPkAdk => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 18:40:38.012
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 18:40:38.148
+!MESSAGE classpath=96 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 18:40:38.150
+!MESSAGE buffering callback sts4.classpath.xGiPkAdk demo false 96
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 18:40:38.150
+!MESSAGE executing callback sts4.classpath.xGiPkAdk 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 18:40:38.276
+!MESSAGE executing callback sts4.classpath.xGiPkAdk SUCCESS [done]
